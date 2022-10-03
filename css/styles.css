@@ -1,5 +1,5 @@
 
-h1, h2, h3, p {
+h1, h2, h3, p, {
   margin: 0px;
   padding: 0px; 
 }
@@ -179,20 +179,35 @@ body {
 /* <!-- our advantages --> */
 .conteiner-ad {
   display: flex;
-  border: 1px solid tomato;
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 92px;
+  
 
 }
 .advantages {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 94px;
+}
+.advantages > .item {
+  width: 270px;
+  padding: 0px;
   
 }
-
+.advantages > .item + .item {
+  margin-left: 30px; 
+}
+/* our works */
+.conteiner-work {
+  display: flex;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .headers {
   font-weight: 700;
   font-size: 14px;

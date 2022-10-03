@@ -24,15 +24,15 @@ body {
 .conteiner {
   display: flex;
   border: 1px solid tomato;
-  max-width: 1200px;
-  /* margin-left: auto; */
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .main-nav {
   display: flex;
   align-items: center;
 }
-
 
 .logo-web {
   font-family: 'Raleway', sans-serif;
@@ -42,7 +42,6 @@ body {
   letter-spacing: 0.03em;
   text-decoration-line: none;
   color: var(--main-blue-color);
-  margin-left: auto;
   margin-right: 93px;
 }
 .logo-studio {
@@ -91,7 +90,6 @@ body {
  
 }
 .link-studio {
-  /* margin: 32px 50px 32px 0; */
 }
 
 .link-studio:focus,
@@ -119,10 +117,9 @@ body {
 }
 
 .contacts-mail,
-.contacts-tel, {
+.contacts-tel {
   color: var(--secondary-text-color);
   text-decoration: none;
-  margin-left: auto;
 }
 
 .contacts-mail:hover,
@@ -134,7 +131,16 @@ body {
   color: var(--main-blue-color);
 }
 /* hero */
+.hero {
+  background-color: #2F303A;
+  height: 600px;
+  text-align: center;
+  border: 1px solid transparent;
+
+}
 .hero-slogan {
+  box-sizing: border-box;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -142,7 +148,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-font-color);
-  background-color: #2f303a;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: 4auto;
 }
 
 .button {
@@ -158,17 +167,30 @@ body {
 
 .button:hover {
   color: var(--main-font-color);
-  background-color: grey;
+  background-color: var(--main-blue-color);
+ 
 }
 
 .button:focus {
   color: var(--main-font-color);
-  background-color: grey;
+  background-color: var(--main-blue-color);
 }
 
 /* <!-- our advantages --> */
+.conteiner-ad {
+  display: flex;
+  border: 1px solid tomato;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 92px;
+
+}
 .advantages {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 .headers {

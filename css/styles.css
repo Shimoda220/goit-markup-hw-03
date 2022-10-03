@@ -50,8 +50,6 @@ body {
 /* header-nav */
 .nav-box .item {
   display: flex;
-
-  background-color:  tomato; 
 }
 
 .nav-box .item +.item {
@@ -106,7 +104,6 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   list-style-type: none;
-  background-color: #111;
   margin-left: auto;
 
    
@@ -140,7 +137,6 @@ body {
 }
 .hero-slogan {
   box-sizing: border-box;
-  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;

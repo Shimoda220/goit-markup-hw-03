@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <div class="conteiner">
+    
     <header>
+      <div class="container">
       <div class="main-nav">
       <a class="logo-web" href="#">Web<span class="logo-studio">Studio</span></a>
-      <nav class="nav-box">
         <ul class="links">
           <li class="item">
             <a class="link-studio" href="./index.html">Студія</a>
@@ -28,10 +28,8 @@
             <a class="link-contacts" href="#">Контакти</a>
           </li>
         </ul>
-      </nav>
+      </div>
       <!-- mail and telephone number -->
-      <section>
-        <h2 hidden>контакти</h2>
         <ul class="contacts">
           <li class="item">
             <a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -40,17 +38,15 @@
             <a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </section>
-    </div>
-    </header>
   </div>
+    </header>
     <main>
       <section class="hero">
         <h1 class="hero-slogan">Ефективні рішення для <br> вашого бізнесу</h1>
         <button class="button pointer" type="button">замовити послугу</button>
       </section>
       <!-- our advantages -->
-      <section class="conteiner-ad">
+      <section class="container-ad">
         <ul class="advantages">
           <li  class="item">
             <h3 class="headers">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -77,57 +73,60 @@
         </ul>
       </section>
       <!-- What do we do -->
-      <section class="conteiner-work">
-        <h2>Чим ми займаємося</h2>
+      <section class="container-work">
+        <h2 class="header-work">Чим ми займаємося</h2>
         <ul class="our-works">
-          <li>
+          <li class="works-item">
             <img src="./images/box_1.jpg" alt="приклади робот" width="370" height="294" />
           </li>
-          <li>
+          <li class="works-item">
             <img src="./images/box_2.jpg" alt="приклади робот" width="370" height="294" />
           </li>
-          <li>
+          <li class="works-item">
             <img src="./images/box_3.jpg" alt="приклади робот" width="370" height="294" />
           </li>
         </ul>
       </section>
-      <section>
+      <!-- our team -->
+      <div class="bgc">
+      <section class="team-container">
         <h2 class="team">Наша команда</h2>
         <ul class="team-members">
-          <li>
+          <li class="team-item">
             <img src="./images/img1_(1).jpg" alt="працівник" width="270" height="260" />
             <h3 class="members">Ігор Дем'яненко</h3>
             <p class="possition">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/img2_(1).jpg" alt="працівник" width="270" height="260" />
             <h3 class="members">Ольга Рєпіна</h3>
             <p class="possition">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/img3_(1).jpg" alt="працівник" width="270" height="260" />
             <h3 class="members">Микола Тарасов</h3>
             <p class="possition">Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./images/img4_(1).jpg" alt="працівник" width="270" height="260" />
             <h3 class="members">Михайло Єрмаков</h3>
             <p class="possition">UI Designer</p>
           </li>
         </ul>
       </section>
+    </div>
     </main>
-    <footer class="backgrounf-color">
-      <a class="logo-web" href="#">Web<span class="logo-studio">Studio</span></a>
+    <footer class="footer-container">
+      <a class="logo-web" href="#">Web<span class="logo-studio-footer">Studio</span></a>
       <address>
-        <ul class="advantages">
-          <li>
+        <ul class="advantages-footer">
+          <li class="footer-item">
             <a class="adress" href="#">м. Київ, пр-т Лесі Українки, 26</a>
           </li>
-          <li>
+          <li class="footer-item">
             <a class="contacts-mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="footer-item">
             <a class="contacts-tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>

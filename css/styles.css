@@ -25,7 +25,8 @@ body {
   display: flex;
   width: 1170px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .main-nav {
@@ -34,7 +35,7 @@ body {
   margin-right: auto;
 }
 
-.logo-web {
+.logo-webs {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -122,6 +123,8 @@ body {
 }
 /* hero */
 .hero {
+  width: 1600px;
+  margin: auto;
   background-color: #2F303A;
   height: 600px;
   text-align: center;
@@ -246,7 +249,9 @@ text-align: center;
 }
 /* our team */
 .bgc {
+  width: 1600px;
   background-color: #F5F4FA;
+  margin: auto;
 }
 .team-container {
   width: 1170px;
@@ -306,23 +311,36 @@ text-align: center;
   width: 1600px;
   height: 252px;
   box-sizing: border-box;
-  border: 1px solid transparent;
-  
+  border: 1px solid transparent; 
+  margin: auto;
+}
+
+.context {
+  display: inline-block;
+  width: 1170px;
+  margin-left: 215px;
+  margin-top: 60px;
+  margin-right:auto;
+  margin-bottom: 20px;
+
 }
 .logo-studio-footer {
 color: var(--main-font-color);
 }
 
 .logo-web {
-display: inline-block;
-margin-top: 60px;
-margin-left: 215px;
-margin-right:auto;
-margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration-line: none;
+  color: var(--main-blue-color);
+  
 }
 .advantages-footer {
   list-style-type: none;
-  margin-left: 215px;
+  /* margin-left: 215px; */
   padding: 0;
   margin-bottom: 0;
   margin-top: 0;

@@ -10,14 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="main-nav">
+        <nav class="main-nav">
           <a class="logo-webs" href="#">Web<span class="logo-studio">Studio</span></a>
           <ul class="links">
             <li class="item">
@@ -30,7 +33,7 @@
               <a class="link-contacts" href="#">Контакти</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <!-- mail and telephone number -->
         <ul class="contacts">
           <li class="item">
@@ -44,41 +47,46 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-slogan">
-          Ефективні рішення для <br />
-          вашого бізнесу
-        </h1>
-        <button class="button-hero pointer" type="button">замовити послугу</button>
+        <div class="container main-hero">
+          <h1 class="hero-slogan">
+            Ефективні рішення для <br />
+            вашого бізнесу
+          </h1>
+          <button class="button-hero pointer" type="button">замовити послугу</button>
+        </div>
       </section>
       <!-- our advantages -->
-      <section class="container-ad">
-        <ul class="advantages">
-          <li class="item">
-            <h3 class="headers">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="text">
-              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="headers">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-            </p>
-          </li>
-          <li class="item">
-            <h3 class="headers">ПЛАНУВАННЯ</h3>
-            <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
-          </li>
-          <li class="item">
-            <h3 class="headers">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="text">
-              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="advantages-section">
+        <div class="container ">
+          <ul class="advantages">
+            <li class="item">
+              <h3 class="headers">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="text">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="headers">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="headers">ПЛАНУВАННЯ</h3>
+              <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            </li>
+            <li class="item">
+              <h3 class="headers">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="text">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- What do we do -->
-      <section class="container-work">
+      <section class="to-do">
+        <div class="container to-do-section">
         <h2 class="header-work">Чим ми займаємося</h2>
         <ul class="our-works">
           <li class="works-item">
@@ -91,10 +99,11 @@
             <img src="./images/box_3.jpg" alt="приклади робот" width="370" height="294" />
           </li>
         </ul>
+      </div>
       </section>
       <!-- our team -->
-      <div class="bgc">
-        <section class="team-container">
+        <section class="team-section">
+          <div class="container section-cont">
           <h2 class="team">Наша команда</h2>
           <ul class="team-members">
             <li class="team-item">
@@ -118,27 +127,28 @@
               <p class="possition">UI Designer</p>
             </li>
           </ul>
+        </div>
         </section>
-      </div>
     </main>
-    <footer class="footer-container">
-      <div class="context">
-        <a class="logo-web" href="#">Web<span class="logo-studio-footer">Studio</span></a>
-        <address>
-          <ul class="advantages-footer">
-            <li class="footer-item">
-              <a class="adress" href="#">м. Київ, пр-т Лесі Українки, 26</a>
-            </li>
-            <li class="footer-item">
-              <a class="contacts-mail-footer" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="footer-item">
-              <a class="contacts-tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+
+    <footer class="footer">
+      <div class="container footer-cont">
+          <a class="logo-web" href="#">Web<span class="logo-studio-footer">Studio</span></a>
+          <address>
+            <ul class="advantages-footer">
+              <li class="footer-item">
+                <a class="adress" href="#">м. Київ, пр-т Лесі Українки, 26</a>
+              </li>
+              <li class="footer-item">
+                <a class="contacts-mail-footer" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="contacts-tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
       </div>
     </footer>
   </body>

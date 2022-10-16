@@ -13,22 +13,22 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="border">
       <div class="container">
-        <div class="main-nav">
+        <nav class="main-nav">
           <a class="logo-webs" href="#">Web<span class="logo-studio">Studio</span></a>
           <ul class="links">
             <li class="item">
-              <a class="link-studio" href="./index.html">Студія</a>
+              <a class="link-studio current" href="./index.html">Студія</a>
             </li>
             <li class="item">
-              <a class="link-portfolio current" href="./portfolio.html">Портфоліо</a>
+              <a class="link-portfolio" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="item">
               <a class="link-contacts" href="#">Контакти</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <!-- mail and telephone number -->
         <ul class="contacts">
           <li class="item">
@@ -41,67 +41,150 @@
       </div>
     </header>
     <!-- main-navigation -->
-    <main class="container-portfolio">
-      <section>
-        <h1 hidden>portfolio</h1>
-        <ul class="main-nav-filter">
-          <li class="item"><button class="button" type="button">Усі</button></li>
-          <li class="item"><button class="button" type="button">Веб-сайти</button></li>
-          <li class="item"><button class="button" type="button">Додатки</button></li>
-          <li class="item"><button class="button" type="button">Дизайн</button></li>
-          <li class="item"><button class="button" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="our-web">
-          <li class="web-item">
-            <img src="./images/portfolio/1.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Технокряк</h2>
-            <p class="text-portfolio">Веб-сайт</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img2.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Постер New Orlean vs Golden Star</h2>
-            <p class="text-portfolio">Дизайн</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img3.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Ресторан Seafood</h2>
-            <p class="text-portfolio">Додаток</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img4.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Проєкт Prime</h2>
-            <p class="text-portfolio">Маркетинг</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img5.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Проєкт Boxes</h2>
-            <p class="text-portfolio">Додаток</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img6.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Inspiration has no Borders</h2>
-            <p class="text-portfolio">Веб-сайт</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img8.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Видання Limited Edition</h2>
-            <p class="text-portfolio">Дизайн</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img8.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Проєкт LAB</h2>
-            <p class="text-portfolio">Маркетинг</p>
-          </li>
-          <li class="web-item">
-            <img src="./images/portfolio/img9.jpg" alt="приклади сайтів" width="370" height="294" />
-            <h2 class="header-portofolio">Growing Business</h2>
-            <p class="text-portfolio">Додаток</p>
-          </li>
-        </ul>
+    <main>
+      <section class="portfolio-cont">
+        <div class="container">
+          <h1 hidden>portfolio</h1>
+          <ul class="main-nav-filter">
+            <li class="item"><button class="button" type="button">Усі</button></li>
+            <li class="item"><button class="button" type="button">Веб-сайти</button></li>
+            <li class="item"><button class="button" type="button">Додатки</button></li>
+            <li class="item"><button class="button" type="button">Дизайн</button></li>
+            <li class="item"><button class="button" type="button">Маркетинг</button></li>
+          </ul>
+          <ul class="our-web">
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/1.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Технокряк</h2>
+                  <p class="text-portfolio">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img2.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Постер New Orlean vs Golden Star</h2>
+                  <p class="text-portfolio">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img3.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Ресторан Seafood</h2>
+                  <p class="text-portfolio">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img4.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Проєкт Prime</h2>
+                  <p class="text-portfolio">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img5.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Проєкт Boxes</h2>
+                  <p class="text-portfolio">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img6.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Inspiration has no Borders</h2>
+                  <p class="text-portfolio">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img8.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Видання Limited Edition</h2>
+                  <p class="text-portfolio">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img8.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Проєкт LAB</h2>
+                  <p class="text-portfolio">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="web-item">
+              <a href="#">
+                <img
+                  src="./images/portfolio/img9.jpg"
+                  alt="приклади сайтів"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-work">
+                  <h2 class="header-portofolio">Growing Business</h2>
+                  <p class="text-portfolio">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer-container">
-      <div class="context">
+    <footer class="footer">
+      <div class="container footer-cont">
         <a class="logo-web" href="#">Web<span class="logo-studio-footer">Studio</span></a>
         <address>
           <ul class="advantages-footer">
